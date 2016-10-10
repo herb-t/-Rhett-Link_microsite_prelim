@@ -1,0 +1,29 @@
+<!-- shared styles for all elements and index.html -->
+<dom-module id="shared-styles">
+  <template>
+    <style>
+			:root {
+				--site-font-family: 'Roboto', Arial, sans-serif;
+				--white: #FFFFFF;
+				--black: #000;
+				--site-max-width: 960px;
+		  
+		  	--layout-flex: {
+		  		display: -webkit-flex;
+		  		display: -moz-flex;
+		  		display: -ms-flex;
+		  		display: -o-flex;
+		  		display: flex;
+		  	};
+		  	
+			}
+
+			.content-container {
+				width: 100%;
+				max-width: var(--site-max-width);
+				margin: 0 auto;
+			}
+ 
+    </style>
+  </template>
+</dom-module>
